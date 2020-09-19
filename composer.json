@@ -1,0 +1,25 @@
+{
+    "name": "abdelmoujoudaza/laravel-preset",
+    "description": "custom preset for laravel projects",
+    "keywords": ["laravel", "custom", "preset"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdelmoujoud Azafad",
+            "email": "abdelmoujoudaza@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Abdelmoujoudaza\\LaravelPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Abdelmoujoudaza\\LaravelPreset\\LaracastServiceProvider"
+            ]
+        }
+    }
+}
